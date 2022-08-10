@@ -9,7 +9,7 @@ Servo myservo;
 
 void setup() {
   Serial.begin(9600);
-  myservo.attach(9);
+  myservo.attach(Servo_Pin);
 }
 
 void loop() {
